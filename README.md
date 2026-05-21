@@ -17,3 +17,7 @@ Este projeto consiste em um Sistema Baseado em Regras (SBC) desenvolvido com a b
 11. **R11 (Ação de Arquivamento de Rotina):** SE for classificado como rotina de trabalho, ENTÃO encaminhe a mensagem para a pasta padrão de trabalho corporativo.
 12. **R12 (Ação de Triagem de Marketing):** SE for categorizado como promoções, ENTÃO mova-o para a aba lateral de ofertas para mitigar poluição visual da caixa de entrada.
 
+## Casos de Teste Verificados
+* **Caso 1 (Ataque Cibernético):** Entrada simulando e-mail fraudulento prometendo ganho financeiro. Resultado esperado: Ativação da barreira de segurança por salience e envio automático para Quarentena.
+* **Caso 2 (Mensagem Acadêmica de Alta Prioridade):** Entrada originada do domínio oficial da faculdade com dados de prazo. Resultado esperado: Classificação como Trabalho Urgente e ativação do protocolo de alerta imediato.
+* **Caso 3 (Publicidade de Varejo Comum):** Entrada promocional sem marcadores fraudulentos. Resultado esperado: Encaminhamento automático para a aba de Promoções sem perturbar a interface de foco do usuário.
